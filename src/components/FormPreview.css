@@ -1,0 +1,72 @@
+.form-preview {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .preview-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .preview-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .preview-field {
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+  }
+  
+  .preview-question {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .required-mark {
+    color: #dc3545;
+    margin-left: 4px;
+  }
+  
+  .preview-field-input {
+    margin-top: 8px;
+  }
+  
+  .radio-label,
+  .checkbox-label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .preview-textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .preview-toggle {
+    background-color: #6c757d;
+  }
+  
+  .preview-toggle.active {
+    background-color: #28a745;
+  }
+  
+  .builder-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
